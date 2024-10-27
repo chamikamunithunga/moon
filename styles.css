@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: #f0f0f0; /* Change to your desired background color */
+  }
+  
+  header {
+    background: linear-gradient(to bottom, #006e6c, #545a00);
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+
+  }
+  
+  .video-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .overlay-content {
+    position: relative;
+    color: white;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .overlay-content button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #000000;
+    color: white;
+    border-color: #ffffff;
+    border-style:groove;
+    cursor: pointer;
+    margin-top: 400px;
+  }
+  
+  .overlay-content button:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+  }
+  
+  .moon-exploration {
+    padding: 20px;
+    background-color: #000000; 
+    text-align: center;
+    
+
+    
+  }
+  .moon-exploration h2,p{
+    color: white;
+  }
+  
+  .topic {
+    display: flex;
+    margin: 100px 0;
+    color: #f0f0f0;
+    
+  }
+  
+  .topic .text {
+    flex: 1; /* Takes up half the width */
+    padding: 20px;
+    color: #f0f0f0;
+    
+  }
+  
+  .topic .image {
+    flex: 1; 
+  }
+  
+  .topic img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Adds rounded corners to images */
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
