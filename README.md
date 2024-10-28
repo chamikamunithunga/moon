@@ -6,6 +6,8 @@
 ASTROX is an engaging website focused on lunar exploration, showcasing videos, insightful topics, and stunning visuals of the Moon. This project aims to educate and inspire users about the mysteries and scientific discoveries related to our celestial neighbor.
 
 
+
+
 ## Features
 - Background video showcasing lunar landscapes.
 - Detailed sections about lunar exploration topics with images.
